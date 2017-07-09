@@ -1,0 +1,31 @@
+{
+    "application": {
+
+        "elements": [
+            {
+                "id": 30,
+                "image": "http://ctm.ma/sites/default/files/slider_home/bandeau_home_vente_online.png",
+                "caption": ""
+            },
+            {
+                "id": 31,
+                "image": "http://ctm.ma/sites/default/files/slider_home/flyer_ctm_premuim_recto-1.jpg",
+                "caption": ""
+            },
+            {
+                "id": 32,
+                "image": "http://ctm.ma/sites/default/files/slider_home/ctm_instit_fille_premium_web.png",
+                "caption": ""
+            },
+            {
+                "id": 33,
+                "image": "http://ctm.ma/sites/default/files/slider_home/banniere_ete_ctm_634x296_px_0.png",
+                "caption": ""
+            }
+
+        ]
+
+    }
+    }
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/jaune3"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/top"
+        android:background="@color/jauneDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/web_hi_res_512"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/swipper"
+        android:layout_below="@id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+      >
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+        </FrameLayout>
+    </LinearLayout>
+   <HorizontalScrollView
+       android:layout_alignParentBottom="true"
+       android:layout_alignBottom="@+id/swipper"
+       android:layout_width="match_parent"
+       android:background="@color/soft_grey"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <LinearLayout
+           android:id="@+id/list_items"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+
+           android:orientation="horizontal"/>
+
+   </HorizontalScrollView>
+
+</RelativeLayout>

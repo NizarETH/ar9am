@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "979712899538",
+    "firebase_url": "https://ar9am-45182.firebaseio.com",
+    "project_id": "ar9am-45182",
+    "storage_bucket": "ar9am-45182.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979712899538:android:16733d42aa8d67a7",
+        "android_client_info": {
+          "package_name": "com.stanly.ar9am"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979712899538-np3fttqv0o55k3nfehb9jnvvd8buq7at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATr9RUNLE-zs8NupwJ2f-H2pQgO94xy44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
